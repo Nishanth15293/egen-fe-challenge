@@ -14,12 +14,6 @@
     color:red;
 }
 
-/*#card_number{
-	background-image:url(../images/icons.png);
-	background-repeat: no-repeat;
-	background-position: 2px 3px;
-}*/
-
 #card_number{
     background: url(../images/vertical.png) no-repeat;
     text-indent: 50px;
