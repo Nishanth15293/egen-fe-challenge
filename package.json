@@ -1,0 +1,28 @@
+{
+  "name": "egen_cclogo_nish",
+  "version": "1.0.0",
+  "description": "egen-fe-challenge",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishanth15293/egen-fe-challenge.git"
+  },
+  "author": "777.nishanth@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishanth15293/egen-fe-challenge/issues"
+  },
+  "homepage": "https://github.com/Nishanth15293/egen-fe-challenge#readme"
+}
