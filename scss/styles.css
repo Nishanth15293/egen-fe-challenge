@@ -1,0 +1,54 @@
+/*styles*/
+.card{
+    border-radius: 8px;
+    background-color: #efefef;
+    width: 250px;
+    height:100px;
+}
+
+.star{
+    color:blue;
+}
+
+.errormsg{
+    color:red;
+}
+
+/*#card_number{
+	background-image:url(../images/icons.png);
+	background-repeat: no-repeat;
+	background-position: 2px 3px;
+}*/
+
+#card_number{
+    background: url(../images/vertical.png) no-repeat;
+    text-indent: 50px;
+    width:100%;
+    line-height: 2.6rem;
+    background-position: 0 29px;
+}
+
+
+.Visa{
+    background-position: 0 -29px !important;
+}
+
+.Mastercard{
+    background-position: 0 -57px !important;
+}
+
+.Maestro{
+    background-position: 0 -85px !important;
+}
+
+.Amex{
+    background-position: 0 -113px !important;
+}
+
+.Discover{
+    background-position: 0 1px !important;
+}
+
+.unknown{
+    background: url(../images/unknown.png) no-repeat !important;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "egen_cclogo_nish",
+  "description": "egen-fe-challenge",
+  "main": "index.js",
+  "authors": [
+    "777.nishanth@gmail.com"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "credit-card"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-mocks": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "jasmine-core": "^2.5.2",
+    "jquery": "^3.1.1",
+    "karma": "^1.4.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}
