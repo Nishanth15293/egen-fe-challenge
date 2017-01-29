@@ -9,5 +9,8 @@ Case 1: Use in an already existing angular App:
 4)Use the component as an element <cclogo></cclogo> or as an attribute <div cclogo></div>. 
 
 Case 2: Test 
-1)Do bower install to install all the dependencies including jquery, bootstrap, angular. Also installs karma and plugins for developers to check.
-2)Click index.html to check an example of basic usage of egen_cclogo_nish component.
+1)clone the git repository from https://github.com/Nishanth15293/egen-fe-challenge.git;
+2)Do bower install to install all the dependencies including jquery, bootstrap, angular. 
+3)Do npm install to install other dependencies like karma, jasmine etc.
+4)Click index.html to check an example/Demo of basic usage of egen_cclogo_nish component.
+5)Do karma start to check if all test cases went well.
