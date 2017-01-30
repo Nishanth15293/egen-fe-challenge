@@ -6,7 +6,7 @@ Case 1: Use in an already existing angular App:<br />
 2)Include the egen_cclogo.js and egen_cclogo.css in your index.html.<br />
 3)Inject "CreditCard" module to your module in which you are using this component.<br />
 	Ex: angular.module('app', ['CreditCard']);<br />
-4)Use the component as an element <cclogo></cclogo> or as an attribute <div cclogo></div>. <br />
+4)Use the component as an element \<cclogo>\</cclogo> or as an attribute \<div cclogo>\</div>. <br />
 
 Case 2: Test <br />
 1)clone the git repository from https://github.com/Nishanth15293/egen-fe-challenge.git;<br />
