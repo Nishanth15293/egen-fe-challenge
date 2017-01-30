@@ -1,6 +1,7 @@
 {
   "name": "egen_cclogo_nish",
   "description": "egen-fe-challenge",
+  "version": "1.0.0",
   "main": "index.js",
   "authors": [
     "777.nishanth@gmail.com"

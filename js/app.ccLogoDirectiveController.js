@@ -16,6 +16,8 @@
                 Mastercard: /^(5[1-5][0-9]{14}$|22212720[0-9]{8}$)/,
                 Amex: /^3[47][0-9]{13}$/,
                 Maestro: /^(5018|5020|5038|5612|5893|6304|6759|6761|6762|6763|0604|6390)\d+$/,
+
+                //Additional ones where i haven't set the images to be displayed but they do detect and add the classes correctly
                 Diners: /^3(?:0[0-5]|[68][0-9])[0-9]{11}$/,
                 Electron: /^(4026|417500|4405|4508|4844|4913|4917)\d+$/,
                 Dankort: /^(5019)\d+$/,
