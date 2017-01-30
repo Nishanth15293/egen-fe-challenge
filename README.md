@@ -2,9 +2,9 @@
 egen-fe-challenge
 
 Case 1: Use in an already existing angular App:
-1)do bower install egen_cclogo_nish.
-2)include the egen_cclogo.js and egen_cclogo.css in your index.html.
-3)pass in "CreditCard" module to your module in which you are using this directive.
+1)Do bower install egen_cclogo_nish.
+2)Include the egen_cclogo.js and egen_cclogo.css in your index.html.
+3)Inject "CreditCard" module to your module in which you are using this component.
 	Ex: angular.module('app', ['CreditCard']);
 4)Use the component as an element <cclogo></cclogo> or as an attribute <div cclogo></div>. 
 
