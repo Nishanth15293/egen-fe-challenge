@@ -18,8 +18,9 @@ describe('cclogoController', function() {
 			init();
 			var card = ctrl.detectCardType(ctrl.cardNumber);
 			expect(card).toEqual("Visa");
-			card = ctrl.detectCardType("5178058034818354");
-			expect(card).toEqual("Mastercard");
+			//could write similar cases for all other card types too, like
+			//var card = ctrl.detectCardType('6011111111111117');
+			//expect(card).toEqual("Discover"); and so on...
 		});
 	});
 
@@ -54,5 +55,34 @@ describe('cclogoController', function() {
 	}
 })
 
+describe('ccLogoDirective', function(){
+	"use-strict";
+	var compile, scope, directiveElem;
+	 beforeEach(function(){
+	  module('CreditCard');
+	  
+	  inject(function($compile, $rootScope){
+	    compile = $compile;
+	    scope = $rootScope.$new();
+	  });
+	  
+	  directiveElem = getCompiledElement();
+	});
+
+	function getCompiledElement(){
+	  var element = angular.element('<div cclogo></div>');
+	  var compiledElement = compile(element)(scope);
+	  scope.$digest();
+	  return compiledElement;
+	}
+
+	it('should exist', function () {
+	  var inputElement = directiveElem.find('input');
+	  expect(inputElement).toBeDefined();
+	  // console.log(inputElement);
+	  expect(inputElement.attr('id')).toBe('card_number');
+	});
+
+});
 
 
